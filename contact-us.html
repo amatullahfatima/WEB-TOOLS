@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>HTML5 Forms</title>
+    <meta name="description" content="Contact Page">
+    <meta name="author" content="Amatullah Fatima">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Optional Local Stylesheets -->
+
+  </head>
+
+  <body>
+    <header>
+      <h1>Contact Page</h1>
+    </header>
+
+    <main>
+      <nav>
+        
+          <a href="index.html">Home</a>
+          <a href="blog.html">About</a>
+          <a href="contact-us.html">Contact Us</a>
+        
+      </nav>
+      <section>
+        <h2>Get to Know Me</h2>
+        <p>
+        Fill in the form to help us cater to your interests.
+        </p>
+        <fieldset>
+          <legend>Help us Get Acquainted.</legend>
+          <h3>Personal Information</h3>
+          <form id="myMailerForm" method="post" action="mailto:actorsworld@gmail.com">
+            <p>
+              <label title="Enter your full name.">Name <input type="text" name="Name" placeholder="Name"></label>
+            </p>
+            <p>
+              <label title="Enter your email address.">E-Mail <input type="text" name="Email" placeholder="Email"></label>
+            </p>
+            <p>
+                <label title="Enter your phone number.">Phone Number <input type="text" name="Phone" placeholder="Phone Number"></label>
+              </p>
+            <p>
+              <label title="Select your program."> Select Favorite Food</label>
+              <select name="programID">
+                <option value="">&larr;&nbsp;Select Food&nbsp;&rarr;</option>
+                <option value="1">Pizza</option>
+                <option value="2">Pasta</option>
+                <option value="3">Ice cream</option>
+                <option value="4">Donuts</option>
+                <option value="5">Cake</option>
+              </select>
+            </p>
+            <p>
+              <label title="Select to participate in free giveaways."><input type="checkbox" name="I would like to participatein free giveaways."> I would like to participate in free giveaways.</label>
+            </p>
+            <h3>Favorite Color</h3>
+            <p>
+              <label title="Select if your favorite color is white.">White <input type="radio" name="request"></label>
+              <br>
+              <label title="Select if your favorite color is blue.">Blue <input type="radio" name="request"></label>
+              <br>
+              <label title="Select if your favorite color is yellow.">Yellow <input type="radio" name="request"></label>
+              <br>
+              <label title="Select if your favorite color is purple">Purple <input type="radio" name="request"></label>
+              <br>
+              <label title="Select if your favorite color is red.">Red <input type="radio" name="request"></label>
+              <br>
+              <label title="Select if your favorite color is black.">Black <input type="radio" name="request"></label>
+              <br>
+              <label title="Select if your favorite color is orange.">Orange <input type="radio" name="request"></label>
+              <br>
+              <label title="Select if your favorite color is green.">Green <input type="radio" name="request"></label>
+              <br>
+              <label title="Select if your favorite color is pink.">Pink <input type="radio" name="request"></label>
+            </p>
+            <p>
+              <label for="message">Send a Message:</label><br>
+              <textarea id="message" name="message"></textarea>
+            </p>
+            <input type="submit" name="submit" value="Send Mail">
+            <input type="reset" value="Clear Form">
+          </form>
+        </fieldset>
+
+      </section>
+    </main>
+
+    <footer>
+      <p class="whitetext">Copyright &copy; 2023</p>
+    </footer>
+
+  </body>
+
+</html>
