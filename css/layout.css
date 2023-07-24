@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+main {
+display:flex;
+padding:16px;
+width:100%;
+justify-content:space-between;
+flex-wrap: flex wrap;
+}
+main > * {
+    width: 100%
+}
+@media (min-width: 992px) {
+    main > * {
+        width:30%;
+    }
+}
+
+h2, h3
+{
+text-align: center;
+}
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 16px;
+}
+
+nav{
+    position: sticky;
+    width:100%;
+    top:0;
+    left:0;
+    right:0;
+}
