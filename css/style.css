@@ -1,39 +1,45 @@
 header
 {
-background-color:#1A3E4C ;
+background-color:brown;
+top:0;
+left:0;
+right:0;
 }
 footer
 {
-background-color:#1A3E4C ;
+background-color:brown ;
 }
 main
 {
-background-color:#E4F1F6 ;
+background-color:white ;
 }
 nav
 {
-background-color:#347B98 ;
+background-color:gray ;
+top:0;
+left:0;
+right:0;
 }
 h1
 {
- color:#E4F1F6;
+ color:white;
  font-weight: 1000;
  font-family: 'Times New Roman', Times, serif;
- font-size: 70%;
+ font-size: 130%;
 }
 h2, h3
 {
- color:#1A3E4C;
- font-weight: 800;
+ color:brown;
+ font-weight:80%;
  font-family: 'Times New Roman', Times, serif;
- font-size: 60%;
+ font-size: 100%;
 }
 p
 {
-color:#092834;
+color:brown;
 font-weight: 500;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-font-size: 65%;
+font-size: 90%;
 }
 a:link
 {
@@ -49,5 +55,6 @@ color:#ED5094;
 }
 .whitetext
 {
- color:#E4F1F6
+ color:#E4F1F6;
+ font-size: 90%
 }
